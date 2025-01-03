@@ -1,0 +1,81 @@
+/* Global styles for the order component */
+.order {
+    background-color: #d3c058;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for the heading */
+  .order h3 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for the list of ordered items */
+  .order ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .order ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #13a87b;
+    font-size: 1.1em;
+  }
+  
+  /* Adding some space at the bottom */
+  .order ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Styling the total amount */
+  .order p {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0c0c0c;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  /* Adding a small margin to the final thank you message */
+  .order p:last-child {
+    font-size: 1.1em;
+    text-align: center;
+    color: hsl(0, 84%, 20%);
+    margin-top: 10px;
+  }
+  /* Style pour la flèche de retour */
+.back-button {
+    background-color: #f39c12;
+    color: rgb(238, 27, 27);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #e67e22; /* Change la couleur au survol */
+  }
+  
+  .back-button:focus {
+    outline: none; /* Retire le contour bleu au focus */
+  }
+  
+  .back-button span {
+    margin-right: 10px; /* Espacement entre la flèche et le texte */
+  }
+  

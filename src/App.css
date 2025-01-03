@@ -1,0 +1,63 @@
+/* Style global */
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #eeb279;
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style de l'entête */
+.app-header {
+  background-color: #ff5733;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Style de la zone de contenu */
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px;
+}
+
+/* Style du bouton 'Passer la commande' */
+.order-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.order-button {
+  background-color: #ff5733;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.order-button:hover {
+  background-color: #e64e2b;
+  transform: translateY(-2px);
+}
+
+.order-button:active {
+  background-color: #cc4524;
+  transform: translateY(1px);
+}
